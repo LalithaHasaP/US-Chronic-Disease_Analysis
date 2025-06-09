@@ -16,7 +16,7 @@ This project analyzes the **U.S. Chronic Disease Indicators dataset** with a foc
 ### Files
 
 * `notebook.ipynb` – Main Jupyter Notebook with code and analysis
-* `dashboard.py` – Optional Streamlit dashboard (if applicable)
+* `dashboard.py` – Streamlit dashboard 
 
 ### Note
 
