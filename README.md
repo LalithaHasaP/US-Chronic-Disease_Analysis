@@ -29,4 +29,28 @@ This project analyzes the **U.S. Chronic Disease Indicators dataset** with a foc
 * seaborn & matplotlib
 * scikit-learn
 * XGBoost
-* Streamlit (optional dashboard)
+* Streamlit
+
+## Running the Dashboard
+
+The `dashboard.py` file contains an interactive Streamlit dashboard for exploring the dataset and predictive models.
+
+### Dataset Download
+
+Since the dataset (`U.S._Chronic_Disease_Indicators.csv`) is too large to upload here, **please download it manually before running the dashboard**:
+
+- Download from Kaggle:  
+  [https://www.kaggle.com/datasets/cdc/us-chronic-disease-indicators](https://www.kaggle.com/datasets/cdc/us-chronic-disease-indicators)
+- Place the downloaded CSV file in the **same folder** as `dashboard.py`.
+
+### Running Locally
+
+Make sure you have the required Python libraries installed (see `requirements.txt`), then run:
+
+```bash
+streamlit run dashboard.py
+```
+
+### Live Dashboard
+
+You can also view the deployed dashboard online here: [Dashboard](https://us-chronic-diseaseanalysis-a5zflcj96kvopgydlkkrys.streamlit.app/)
