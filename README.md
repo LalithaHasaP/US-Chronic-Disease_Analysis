@@ -50,7 +50,3 @@ Make sure you have the required Python libraries installed (see `requirements.tx
 ```bash
 streamlit run dashboard.py
 ```
-
-### Live Dashboard
-
-You can also view the deployed dashboard online here: [Dashboard](https://us-chronic-diseaseanalysis-a5zflcj96kvopgydlkkrys.streamlit.app/)
